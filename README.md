@@ -1,6 +1,6 @@
 # transfer.sh-web
 
-This repository contains the web frontend for [transfer.sh](https://github.com/dutchcoders/transfer.sh/).
+This repository contains the web frontend for [transfer.sh](https://github.com/heatseekr/transfer.sh/).
 
 
 ## How to use it 
@@ -9,7 +9,7 @@ You must specify `web-path` directory, pointing to `dist` generated folder (Grun
 
 Sample :
 ```
-docker run -d -v /folder:/uploads -v /folder/dist:/webapp --publish 5000:8080 dutchcoders/transfer.sh:latest --provider local --basedir /uploads --web-path /webapp/
+docker run -d -v /folder:/uploads -v /folder/dist:/webapp --publish 5000:8080 heatseekr/transfer.sh:latest --provider local --basedir /uploads --web-path /webapp/
 ```
 ## Requirement 
 You must install first : 
